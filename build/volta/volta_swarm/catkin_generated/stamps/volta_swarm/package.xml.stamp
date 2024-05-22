@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>volta_swarm</name>
+  <version>0.0.1</version>
+  <description>
+    A ROS controller for managing a swarm of robots in the Volta framework.
+  </description>
+
+  <maintainer email="your.email@example.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Add build dependencies -->
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <!-- Add execution dependencies -->
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <export>
+    <build_type>catkin</build_type>
+  </export>
+</package>

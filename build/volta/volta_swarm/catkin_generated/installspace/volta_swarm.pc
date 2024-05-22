@@ -1,0 +1,8 @@
+prefix=/home/vallari/Development/volta_ws/install
+
+Name: volta_swarm
+Description: Description of volta_swarm
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs
